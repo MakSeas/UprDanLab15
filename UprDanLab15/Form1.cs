@@ -20,6 +20,7 @@ namespace UprDanLab15
 
         SqlConnection connection;
 
+        //Поменять PC2 на название твоего сервера. Зайти в App.config и внести эту строку туда
         string connectionString = "Data Source=PC2;Initial Catalog=Tolsokorova_Grishin_ITb-212;Integrated Security=True";
 
         private void Form1_Load(object sender, EventArgs e)
